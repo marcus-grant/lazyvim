@@ -39,3 +39,9 @@ dark_mode_by_time()
 map("n", "<leader>wd", set_dark_mode, { desc = "Dark Mode" })
 map("n", "<leader>wl", set_lite_mode, { desc = "Light Mode" })
 map("n", "<leader>w ", toggle_dark_mode, { desc = "Toggle Dark/Lite Mode" })
+
+-- Avante.nvim AI mappings
+map("n", "<leader>aa", "<cmd>AvanteChat<cr>", { desc = "Avante: AI Chat" })
+map("n", "<leader>ap", "<cmd>AvanteApply<cr>", { desc = "Avante: Apply Patch" })
+map("n", "<leader>ar", "<cmd>AvanteReject<cr>", { desc = "Avante: Reject Patch" })
+map("n", "<leader>aq", "<cmd>AvanteQuickfix<cr>", { desc = "Avante: Quickfix → Context" })
